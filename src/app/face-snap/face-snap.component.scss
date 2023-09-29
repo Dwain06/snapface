@@ -1,0 +1,26 @@
+.face-snap-card {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 30px auto;
+  padding: 10px 10px;
+  box-shadow: lightgray 4px 4px 20px;
+  position: relative;
+
+  .face-snap-title{
+    display: flex;
+  }
+  img {
+    width: 85px;
+    height: 85px;
+    margin: 20px;
+    border-radius: 4px;
+  }
+  h2 {
+    margin-bottom: 0;
+  }
+  button{
+    position: absolute;
+    right: 0px;
+    bottom: 15px;
+  }
+}
